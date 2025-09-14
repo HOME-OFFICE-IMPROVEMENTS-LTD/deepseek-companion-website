@@ -1,3 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOILTD DeepSeek Code Companion - Your Multi-Model AI Coding Assistant</title>
+    <meta name="description" content="Professional VS Code extension offering 100+ AI models including DeepSeek, GPT-4, Claude. Features Phase 5 automation, security scanning, and real-time cost tracking.">
+    <meta name="keywords" content="VS Code extension, AI coding assistant, DeepSeek, GPT-4, Claude, OpenRouter, Phase 5 automation, security scanning">
+    <meta name="author" content="Home & Office Improvements Ltd">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepseek-companion.hoiltd.com">
+    <meta property="og:title" content="HOILTD DeepSeek Code Companion - Multi-Model AI Coding Assistant">
+    <meta property="og:description" content="Professional VS Code extension with 100+ AI models, Phase 5 automation, and advanced security features.">
+    <meta property="og:image" content="https://deepseek-companion.hoiltd.com/images/hero-screenshot.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://deepseek-companion.hoiltd.com">
+    <meta property="twitter:title" content="HOILTD DeepSeek Code Companion - Multi-Model AI Coding Assistant">
+    <meta property="twitter:description" content="Professional VS Code extension with 100+ AI models, Phase 5 automation, and advanced security features.">
+    <meta property="twitter:image" content="https://deepseek-companion.hoiltd.com/images/hero-screenshot.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/deepseek-logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/deepseek-logo.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/deepseek-logo.svg" alt="HOILTD DeepSeek Logo" class="nav-logo">
+                <span class="nav-title">DeepSeek Companion</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#phase5" class="nav-link">Phase 5 Automation</a>
+                <a href="#models" class="nav-link">AI Models</a>
+                <a href="#install" class="nav-link">Install</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=hoiltd-com.hoiltd-deepseek-code-companion" class="btn-primary">Download Extension</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🎉 Latest: Phase 5 Automation System Live!</span>
+                </div>
+                <h1 class="hero-title">
+                    Your <span class="gradient-text">Multi-Model AI</span><br>
+                    Coding Companion for VS Code
+                </h1>
+                <p class="hero-description">
+                    Chat with DeepSeek, OpenRouter's 100+ models (GPT-4, Claude, Gemma), and enjoy workspace-aware AI assistance with real-time cost tracking plus advanced Phase 5 automation features.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=hoiltd-com.hoiltd-deepseek-code-companion" class="btn-primary btn-large">
+                        Install Extension
+                    </a>
+                    <a href="#demo" class="btn-secondary btn-large">
+                        Watch Demo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">AI Models</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Automation Phases</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">130KB</div>
+                        <div class="stat-label">Extension Size</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img src="images/hero-screenshot.png" alt="HOILTD DeepSeek Code Companion VS Code Interface showing Phase 5 automation, security scanning, and multi-model AI chat" class="screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose HOILTD DeepSeek Companion?</h2>
+            <p class="section-description">
+                Unlike other AI coding extensions that lock you into a single provider, we offer true freedom and transparency.
+            </p>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th class="highlight">Our Extension</th>
+                            <th>GitHub Copilot</th>
+                            <th>ChatGPT Extensions</th>
+                            <th>Claude Extensions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Multiple AI Models</td>
+                            <td class="highlight">✅ 100+ models</td>
+                            <td>❌ GPT only</td>
+                            <td>❌ OpenAI only</td>
+                            <td>❌ Anthropic only</td>
+                        </tr>
+                        <tr>
+                            <td>Cost Transparency</td>
+                            <td class="highlight">✅ Real-time tracking</td>
+                            <td>❌ Hidden costs</td>
+                            <td>❌ No tracking</td>
+                            <td>❌ No tracking</td>
+                        </tr>
+                        <tr>
+                            <td>Workspace Context</td>
+                            <td class="highlight">✅ Universal support</td>
+                            <td>✅ Limited</td>
+                            <td>❌ Basic chat</td>
+                            <td>❌ Basic chat</td>
+                        </tr>
+                        <tr>
+                            <td>Automation Suite</td>
+                            <td class="highlight">✅ Phase 5 system</td>
+                            <td>❌ No automation</td>
+                            <td>❌ No automation</td>
+                            <td>❌ No automation</td>
+                        </tr>
+                        <tr>
+                            <td>Security Scanning</td>
+                            <td class="highlight">✅ OWASP compliance</td>
+                            <td>❌ None</td>
+                            <td>❌ None</td>
+                            <td>❌ None</td>
+                        </tr>
+                        <tr>
+                            <td>Provider Freedom</td>
+                            <td class="highlight">✅ Multi-provider</td>
+                            <td>❌ GitHub locked</td>
+                            <td>❌ OpenAI locked</td>
+                            <td>❌ Anthropic locked</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phase 5 Automation Section -->
+    <section class="phase5" id="phase5">
+        <div class="container">
+            <div class="phase5-header">
+                <h2 class="section-title">Phase 5 Automation System</h2>
+                <p class="section-description">
+                    The extension's standout feature - real automation that actually works
+                </p>
+            </div>
+
+            <div class="automation-grid">
+                <div class="automation-card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Security Scanner</h3>
+                    <div class="code-example">
+                        <pre><code>🔒 SECURITY SCAN RESULTS:
+✅ No SQL injection vulnerabilities found
+✅ No XSS vulnerabilities detected
+⚠️  Found 1 potential hardcoded secret
+✅ OWASP Top 10 compliance: 9/10 passed</code></pre>
+                    </div>
+                    <ul class="feature-list">
+                        <li>OWASP Top 10 vulnerability detection</li>
+                        <li>Pattern-based security analysis</li>
+                        <li>Compliance reporting with recommendations</li>
+                    </ul>
+                </div>
+
+                <div class="automation-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Documentation Generator</h3>
+                    <div class="code-example">
+                        <pre><code>📚 DOCUMENTATION GENERATED:
+✅ API documentation created (12 endpoints)
+✅ README.md updated with latest features
+✅ Architecture documentation generated
+✅ Code comments analyzed and improved</code></pre>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Automated README and API documentation</li>
+                        <li>Code comment enhancement</li>
+                        <li>Architecture documentation from code analysis</li>
+                    </ul>
+                </div>
+
+                <div class="automation-card">
+                    <div class="card-icon">🧪</div>
+                    <h3>Test Generator</h3>
+                    <div class="code-example">
+                        <pre><code>🧪 TESTS GENERATED:
+✅ 24 unit tests created for core functions
+✅ 8 integration tests generated
+✅ Test coverage: 89% (target: 80%)
+✅ Test suite ready for execution</code></pre>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Unit and integration test creation</li>
+                        <li>Framework detection (Jest, Mocha, etc.)</li>
+                        <li>Real test coverage analysis</li>
+                    </ul>
+                </div>
+
+                <div class="automation-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Code Metrics Dashboard</h3>
+                    <div class="code-example">
+                        <pre><code>📊 CODE METRICS:
+✅ Code quality score: 8.7/10
+✅ Cyclomatic complexity: Average 3.2 (Good)
+✅ Technical debt: Low
+✅ Maintainability index: 85/100</code></pre>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Live code quality scoring</li>
+                        <li>Complexity analysis and technical debt tracking</li>
+                        <li>Interactive metrics dashboard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Models Section -->
+    <section class="models" id="models">
+        <div class="container">
+            <h2 class="section-title">Access 100+ AI Models</h2>
+            <p class="section-description">
+                Choose the perfect AI model for each task - from coding to analysis to documentation
+            </p>
+
+            <div class="models-grid">
+                <div class="model-category">
+                    <h3>🚀 DeepSeek Models</h3>
+                    <ul>
+                        <li>DeepSeek Chat</li>
+                        <li>DeepSeek Coder</li>
+                        <li>DeepSeek Reasoning</li>
+                    </ul>
+                </div>
+                <div class="model-category">
+                    <h3>🧠 OpenAI Models</h3>
+                    <ul>
+                        <li>GPT-4 Turbo</li>
+                        <li>GPT-4o</li>
+                        <li>GPT-3.5 Turbo</li>
+                    </ul>
+                </div>
+                <div class="model-category">
+                    <h3>🎭 Anthropic Models</h3>
+                    <ul>
+                        <li>Claude 3.5 Sonnet</li>
+                        <li>Claude 3 Opus</li>
+                        <li>Claude 3 Haiku</li>
+                    </ul>
+                </div>
+                <div class="model-category">
+                    <h3>🔥 Google Models</h3>
+                    <ul>
+                        <li>Gemini Pro</li>
+                        <li>Gemma 2</li>
+                        <li>PaLM 2</li>
+                    </ul>
+                </div>
+                <div class="model-category">
+                    <h3>🦙 Meta Models</h3>
+                    <ul>
+                        <li>Llama 3.1 405B</li>
+                        <li>Llama 3.1 70B</li>
+                        <li>Code Llama</li>
+                    </ul>
+                </div>
+                <div class="model-category">
+                    <h3>⚡ Specialized Models</h3>
+                    <ul>
+                        <li>Mistral Large</li>
+                        <li>Cohere Command</li>
+                        <li>And 80+ more...</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cost-tracking">
+                <h3>💰 Real-Time Cost Tracking</h3>
+                <div class="cost-features">
+                    <div class="cost-feature">
+                        <span class="cost-icon">📊</span>
+                        <div>
+                            <h4>Live Usage Monitor</h4>
+                            <p>See exactly how much each query costs in real-time</p>
+                        </div>
+                    </div>
+                    <div class="cost-feature">
+                        <span class="cost-icon">🎯</span>
+                        <div>
+                            <h4>Daily Spending Limits</h4>
+                            <p>Set and enforce daily budget limits to control costs</p>
+                        </div>
+                    </div>
                     <div class="cost-feature">
                         <span class="cost-icon">📈</span>
                         <div>
@@ -5,3 +330,163 @@
                             <p>Track spending patterns and optimize model selection</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Core Features</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Multi-Model AI Chat</h3>
+                    <p>Switch between DeepSeek, GPT-4, Claude, and 100+ models seamlessly. Get the best AI for each specific task.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Universal Workspace Intelligence</h3>
+                    <p>All AI models understand your project structure, files, and context automatically.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Cost Management</h3>
+                    <p>Real-time tracking with daily spending limits. Know exactly what each query costs.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Security First</h3>
+                    <p>OWASP Top 10 compliance checking, vulnerability scanning, and secure API key management.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Auto Documentation</h3>
+                    <p>Generate comprehensive documentation from your code automatically.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧪</div>
+                    <h3>Test Generation</h3>
+                    <p>Create unit and integration tests with real coverage analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section class="installation" id="install">
+        <div class="container">
+            <h2 class="section-title">Get Started in 3 Steps</h2>
+            
+            <div class="install-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Install Extension</h3>
+                    <p>Search "HOILTD DeepSeek Code Companion" in VS Code Extensions or click the button below.</p>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=hoiltd-com.hoiltd-deepseek-code-companion" class="btn-primary">Install from Marketplace</a>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Add API Keys</h3>
+                    <p>Get your API keys from DeepSeek and OpenRouter (optional) and add them to VS Code settings.</p>
+                    <div class="api-links">
+                        <a href="https://platform.deepseek.com/" target="_blank" class="api-link">Get DeepSeek API Key</a>
+                        <a href="https://openrouter.ai/" target="_blank" class="api-link">Get OpenRouter API Key</a>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Coding</h3>
+                    <p>Click the DeepSeek icon in your Activity Bar and start chatting with AI or try Phase 5 automation!</p>
+                    <div class="demo-commands">
+                        <code>Ctrl+Shift+P → "DeepSeek: Phase 5"</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support">
+        <div class="container">
+            <h2 class="section-title">Support & Resources</h2>
+            
+            <div class="support-grid">
+                <div class="support-card">
+                    <h3>📧 Contact Support</h3>
+                    <p>Need help? Reach out to our team.</p>
+                    <a href="mailto:info@hoiltd.com" class="support-link">info@hoiltd.com</a>
+                </div>
+                
+                <div class="support-card">
+                    <h3>💬 GitHub Issues</h3>
+                    <p>Report bugs or request features.</p>
+                    <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/issues" class="support-link">Open an Issue</a>
+                </div>
+                
+                <div class="support-card">
+                    <h3>📚 Documentation</h3>
+                    <p>Comprehensive guides and tutorials.</p>
+                    <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/wiki" class="support-link">View Documentation</a>
+                </div>
+                
+                <div class="support-card">
+                    <h3>🤝 Contributing</h3>
+                    <p>Help improve the extension.</p>
+                    <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/blob/main/CONTRIBUTING.md" class="support-link">Contributing Guide</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>HOILTD DeepSeek Companion</h3>
+                    <p>Professional multi-model AI coding assistant for VS Code.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#phase5">Phase 5 Automation</a>
+                        <a href="#models">AI Models</a>
+                        <a href="#install">Installation</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/wiki">Documentation</a>
+                        <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/issues">Support</a>
+                        <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/blob/main/CONTRIBUTING.md">Contributing</a>
+                        <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD/deepseek-code-companion/blob/main/LICENSE">License</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="mailto:info@hoiltd.com">Contact</a>
+                        <a href="https://github.com/HOME-OFFICE-IMPROVEMENTS-LTD">GitHub</a>
+                        <a href="https://marketplace.visualstudio.com/publishers/hoiltd-com">Marketplace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Home & Office Improvements Ltd. All rights reserved. Made in London.</p>
+                <p>Powered by DeepSeek AI & OpenRouter</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
