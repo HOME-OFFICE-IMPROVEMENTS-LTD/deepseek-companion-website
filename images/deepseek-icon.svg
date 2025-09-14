@@ -1,0 +1,29 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- DeepSeek Icon - Compact version for navigation -->
+  <defs>
+    <linearGradient id="deepseekIconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5B7CE8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8A6DE8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main body shape -->
+  <path d="M4 12C4 7.58172 7.58172 4 12 4H16C19.3137 4 22 6.68629 22 10V14C22 17.3137 19.3137 20 16 20H12C8.68629 20 6 17.3137 6 14V12" 
+        fill="url(#deepseekIconGradient)" opacity="0.9"/>
+  
+  <!-- Inner element -->
+  <path d="M8 12C8 9.79086 9.79086 8 12 8H14C15.6569 8 17 9.34315 17 11V13C17 14.6569 15.6569 16 14 16H12C9.79086 16 8 14.2091 8 12Z" 
+        fill="url(#deepseekIconGradient)" opacity="0.5"/>
+  
+  <!-- Tail fin -->
+  <path d="M18 8L21 5M21 5L22 8M21 5V10" stroke="url(#deepseekIconGradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  
+  <!-- Eye -->
+  <circle cx="14" cy="11" r="1" fill="white" opacity="0.9"/>
+  <circle cx="14" cy="11" r="0.5" fill="url(#deepseekIconGradient)"/>
+  
+  <!-- Water elements -->
+  <path d="M2 14C3 13 4 14 5 13" stroke="url(#deepseekIconGradient)" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <path d="M2 17C3 16 4 17 5 16" stroke="url(#deepseekIconGradient)" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+</svg>
