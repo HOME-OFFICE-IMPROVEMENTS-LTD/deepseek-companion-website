@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="vscode-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#252526;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deepseek-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- VS Code Window Background -->
+  <rect width="800" height="600" fill="url(#vscode-bg)" rx="8"/>
+  
+  <!-- VS Code Title Bar -->
+  <rect width="800" height="35" fill="#323233" rx="8 8 0 0"/>
+  <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="17.5" r="6" fill="#27ca3f"/>
+  <text x="400" y="22" font-family="Segoe UI, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">HOILTD DeepSeek Code Companion - VS Code</text>
+  
+  <!-- Activity Bar -->
+  <rect x="0" y="35" width="50" height="565" fill="#333333"/>
+  
+  <!-- DeepSeek Icon in Activity Bar -->
+  <rect x="10" y="45" width="30" height="30" fill="url(#deepseek-gradient)" rx="6"/>
+  <circle cx="25" cy="60" r="8" fill="white" opacity="0.9"/>
+  <circle cx="25" cy="60" r="4" fill="url(#deepseek-gradient)"/>
+  
+  <!-- Side Panel -->
+  <rect x="50" y="35" width="300" height="565" fill="#252526"/>
+  <rect x="50" y="35" width="300" height="40" fill="#2d2d30"/>
+  <text x="60" y="58" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#cccccc">DeepSeek Companion</text>
+  
+  <!-- Chat Interface -->
+  <rect x="60" y="85" width="280" height="30" fill="#3c3c3c" rx="15"/>
+  <text x="70" y="104" font-family="Segoe UI, sans-serif" font-size="12" fill="#cccccc">Chat with DeepSeek, GPT-4, Claude...</text>
+  
+  <!-- Model Selector -->
+  <rect x="60" y="125" width="280" height="25" fill="#0e639c" rx="4"/>
+  <text x="70" y="141" font-family="Segoe UI, sans-serif" font-size="11" fill="white">🤖 DeepSeek Chat (Selected)</text>
+  <text x="280" y="141" font-family="Segoe UI, sans-serif" font-size="10" fill="white">$0.002/query</text>
+  
+  <!-- Chat Messages -->
+  <rect x="60" y="160" width="260" height="40" fill="#0078d4" rx="8"/>
+  <text x="70" y="175" font-family="Segoe UI, sans-serif" font-size="11" fill="white">You: Analyze my React component for</text>
+  <text x="70" y="188" font-family="Segoe UI, sans-serif" font-size="11" fill="white">security vulnerabilities</text>
+  
+  <rect x="80" y="210" width="260" height="80" fill="#2d2d30" rx="8"/>
+  <text x="90" y="225" font-family="Segoe UI, sans-serif" font-size="11" fill="#4fc3f7">DeepSeek:</text>
+  <text x="90" y="238" font-family="Segoe UI, sans-serif" font-size="10" fill="#cccccc">🔒 Security Analysis Complete:</text>
+  <text x="90" y="251" font-family="Segoe UI, sans-serif" font-size="10" fill="#4caf50">✅ No XSS vulnerabilities found</text>
+  <text x="90" y="264" font-family="Segoe UI, sans-serif" font-size="10" fill="#ff9800">⚠️ Found potential prop injection in line 23</text>
+  <text x="90" y="277" font-family="Segoe UI, sans-serif" font-size="10" fill="#cccccc">Recommendation: Validate props before...</text>
+  
+  <!-- Phase 5 Automation Panel -->
+  <rect x="60" y="300" width="280" height="120" fill="#1a1a1a" rx="8" stroke="#667eea" stroke-width="1"/>
+  <text x="70" y="318" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#667eea">Phase 5 Automation</text>
+  
+  <rect x="70" y="325" width="60" height="20" fill="#22c55e" rx="10"/>
+  <text x="75" y="337" font-family="Segoe UI, sans-serif" font-size="9" fill="white">Security</text>
+  
+  <rect x="140" y="325" width="50" height="20" fill="#3b82f6" rx="10"/>
+  <text x="145" y="337" font-family="Segoe UI, sans-serif" font-size="9" fill="white">Docs</text>
+  
+  <rect x="200" y="325" width="45" height="20" fill="#f59e0b" rx="10"/>
+  <text x="205" y="337" font-family="Segoe UI, sans-serif" font-size="9" fill="white">Tests</text>
+  
+  <rect x="255" y="325" width="50" height="20" fill="#8b5cf6" rx="10"/>
+  <text x="260" y="337" font-family="Segoe UI, sans-serif" font-size="9" fill="white">Metrics</text>
+  
+  <text x="70" y="360" font-family="Segoe UI, sans-serif" font-size="10" fill="#4caf50">✅ 24 security checks passed</text>
+  <text x="70" y="375" font-family="Segoe UI, sans-serif" font-size="10" fill="#4caf50">✅ Documentation generated</text>
+  <text x="70" y="390" font-family="Segoe UI, sans-serif" font-size="10" fill="#4caf50">✅ 18 tests created (89% coverage)</text>
+  <text x="70" y="405" font-family="Segoe UI, sans-serif" font-size="10" fill="#4caf50">✅ Code quality: 8.7/10</text>
+  
+  <!-- Main Editor Area -->
+  <rect x="350" y="35" width="450" height="565" fill="#1e1e1e"/>
+  <rect x="350" y="35" width="450" height="30" fill="#2d2d30"/>
+  <text x="360" y="54" font-family="Segoe UI, sans-serif" font-size="12" fill="#cccccc">src/components/UserProfile.tsx</text>
+  
+  <!-- Code Editor Content -->
+  <text x="360" y="80" font-family="Consolas, monospace" font-size="11" fill="#569cd6">import</text>
+  <text x="400" y="80" font-family="Consolas, monospace" font-size="11" fill="#cccccc"> React </text>
+  <text x="440" y="80" font-family="Consolas, monospace" font-size="11" fill="#569cd6">from</text>
+  <text x="470" y="80" font-family="Consolas, monospace" font-size="11" fill="#ce9178"> 'react';</text>
+  
+  <text x="360" y="100" font-family="Consolas, monospace" font-size="11" fill="#569cd6">interface</text>
+  <text x="415" y="100" font-family="Consolas, monospace" font-size="11" fill="#4ec9b0"> UserProfileProps </text>
+  <text x="520" y="100" font-family="Consolas, monospace" font-size="11" fill="#cccccc">{</text>
+  
+  <text x="370" y="120" font-family="Consolas, monospace" font-size="11" fill="#9cdcfe">  userId</text>
+  <text x="410" y="120" font-family="Consolas, monospace" font-size="11" fill="#cccccc">: </text>
+  <text x="420" y="120" font-family="Consolas, monospace" font-size="11" fill="#569cd6">string</text>
+  <text x="460" y="120" font-family="Consolas, monospace" font-size="11" fill="#cccccc">;</text>
+  
+  <text x="370" y="140" font-family="Consolas, monospace" font-size="11" fill="#9cdcfe">  name</text>
+  <text x="405" y="140" font-family="Consolas, monospace" font-size="11" fill="#cccccc">: </text>
+  <text x="415" y="140" font-family="Consolas, monospace" font-size="11" fill="#569cd6">string</text>
+  <text x="455" y="140" font-family="Consolas, monospace" font-size="11" fill="#cccccc">;</text>
+  
+  <text x="360" y="160" font-family="Consolas, monospace" font-size="11" fill="#cccccc">}</text>
+  
+  <!-- Security Warning Highlight -->
+  <rect x="360" y="200" width="400" height="20" fill="#ff525230" rx="2"/>
+  <text x="365" y="214" font-family="Consolas, monospace" font-size="11" fill="#569cd6">const</text>
+  <text x="395" y="214" font-family="Consolas, monospace" font-size="11" fill="#cccccc"> dangerousHTML = props.userInput;</text>
+  <text x="680" y="214" font-family="Segoe UI, sans-serif" font-size="9" fill="#ff5252">⚠️ XSS Risk</text>
+  
+  <!-- Cost Tracker in Bottom Panel -->
+  <rect x="350" y="560" width="450" height="40" fill="#0e639c"/>
+  <text x="360" y="578" font-family="Segoe UI, sans-serif" font-size="11" fill="white">💰 Today's Cost: $0.12 / $5.00 limit</text>
+  <text x="600" y="578" font-family="Segoe UI, sans-serif" font-size="11" fill="white">🎯 87 queries</text>
+  <text x="700" y="578" font-family="Segoe UI, sans-serif" font-size="11" fill="white">⚡ DeepSeek Active</text>
+</svg>
